@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/theicon"
+        android:icon="@drawable/options"
+        
+        app:showAsAction="ifRoom"
+        android:orderInCategory="0"
+        android:title="TODO" />
+
+    <item android:id="@+id/secicon"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"
+        android:title="TODO" />
+
+    <item android:id="@+id/cart"
+        android:icon="@drawable/cart"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="2"
+        android:title="TODO" />
+
+
+
+
+</menu>
